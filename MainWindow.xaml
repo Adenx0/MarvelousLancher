@@ -9,9 +9,10 @@
         Title="MarvelousLancher" Height="450" Width="800">
     <Grid>
         <ComboBox 
+            Height="30"
             Width="200"
             HorizontalAlignment="Left"
-               Name="Versions"
+            Name="Versions"
             VerticalAlignment="Top"
             Margin="30,30,614,368"
             DisplayMemberPath="Id"
