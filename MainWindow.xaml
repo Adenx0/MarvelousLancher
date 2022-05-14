@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MarvelousLancher"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+           xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
+        Title="MarvelousLancher" Height="450" Width="800">
     <Grid>
-        
+        <ComboBox 
+            Width="200"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="30,30,614,368"
+            DisplayMemberPath="Id"
+            pu:ComboBoxHelper.ItemsHeight="30"/>
+        <Button 
+            Content="开始游戏" 
+            HorizontalAlignment="Left" 
+            Height="42" 
+            Margin="659,365,0,0" 
+            VerticalAlignment="Top" 
+            Width="116" 
+            FontSize="22" 
+            FontFamily="Arial Black"/>
+
     </Grid>
 </Window>

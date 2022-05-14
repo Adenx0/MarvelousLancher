@@ -1,0 +1,4 @@
+D:\project\MinecraftLancher\MarvelousLancher\obj\Release\MarvelousLancher.csproj.AssemblyReference.cache
+D:\project\MinecraftLancher\MarvelousLancher\obj\Release\MarvelousLancher.csproj.SuggestedBindingRedirects.cache
+D:\project\MinecraftLancher\MarvelousLancher\obj\Release\App.g.cs
+D:\project\MinecraftLancher\MarvelousLancher\obj\Release\MarvelousLancher_MarkupCompile.cache
