@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Panuon.UI.Silver;
-
+using KMCCC.Launcher;
 
 namespace MarvelousLancher
 {
@@ -22,6 +22,8 @@ namespace MarvelousLancher
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        public static LauncherCore Core = LauncherCore.Create();
         public MainWindow()
         {
             InitializeComponent();
