@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="KMCCC.Pro">
+      <HintPath>..\KMCCC.Pro.dll</HintPath>
+    </Reference>
     <Reference Include="Panuon.UI.Core, Version=2.2.5.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Panuon.UI.Core.2.2.5\lib\net472\Panuon.UI.Core.dll</HintPath>
     </Reference>
@@ -100,6 +103,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\KMCCC.Pro.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
