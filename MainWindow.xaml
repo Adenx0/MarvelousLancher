@@ -11,6 +11,7 @@
         <ComboBox 
             Width="200"
             HorizontalAlignment="Left"
+               Name="Versions"
             VerticalAlignment="Top"
             Margin="30,30,614,368"
             DisplayMemberPath="Id"
