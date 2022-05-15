@@ -49,6 +49,30 @@ namespace MarvelousLancher {
         #line default
         #line hidden
         
+        
+        #line 32 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.ComboBox javaCombo;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 38 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox IdTextbox;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 46 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox MemoryTextbox;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -61,7 +85,7 @@ namespace MarvelousLancher {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MarvelousLancher;component/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MarvelousLauncher;component/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
@@ -81,6 +105,15 @@ namespace MarvelousLancher {
             {
             case 1:
             this.Versions = ((System.Windows.Controls.ComboBox)(target));
+            return;
+            case 2:
+            this.javaCombo = ((System.Windows.Controls.ComboBox)(target));
+            return;
+            case 3:
+            this.IdTextbox = ((System.Windows.Controls.TextBox)(target));
+            return;
+            case 4:
+            this.MemoryTextbox = ((System.Windows.Controls.TextBox)(target));
             return;
             }
             this._contentLoaded = true;
