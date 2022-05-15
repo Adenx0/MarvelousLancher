@@ -34,13 +34,13 @@ namespace MarvelousLancher
         private void Button_Click(object sender,RoutedEventArgs e)
         {
             var ver = (KMCCC.Launcher.Version)versionCombo.SelectedItem;
-            var result = InvalidProgramException.Core.Lancher(new LamcherOptions
+            var result = Core.Launch(new LaunchOptions
             {
             Version = ver,//Ver为Versions里你要的版本名字
             MaxMemory = 1024,//最大内存,int类型
-            Authenticator = new OfflineAuthenticator("Dev"),//离线启动,Dev是测试游戏名
+            Authenticator = new KMCCC.Authentication.OfflineAuthenticator("Dev"),//离线启动,Dev是测试游戏名
             //Authenticator = new YggdrasilLogin("邮箱","密码",true),//正版启动,最后一个为是否twitch登录
-            Mode = LancherMode.MCLancher,//启动模式
+            Mode = LaunchMode.MCLauncher,//启动模式
             //Server = new ServerInfo { Address = "服务器IP地址",Port="服务器端口"},//设置进入游戏后自动加入所选IP的服务器
             //Size = new WindowSize { Height = 768,Width = 1280}//设置窗口大小(有没有都可以)
             });
