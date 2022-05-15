@@ -26,6 +26,28 @@
             Width="116" 
             FontSize="22" 
             FontFamily="Arial Black"/>
-
+        <ComboBox Height="30"
+          Width="200"
+          HorizontalAlignment="Left"
+          x:Name="javaCombo"
+          VerticalAlignment="Top"
+          Margin="30,70,0,0"
+          pu:ComboBoxHelper.ItemsHeight="30"/>
+        <TextBox Height="30"
+          Width="200"
+          x:Name="IdTextbox"
+          pu:TextBoxHelper.Watermark="PlaceHolder"
+          pu:TextBoxHelper.CornerRadius="15"
+          HorizontalAlignment="Right"
+          VerticalAlignment="Bottom"
+          Margin="0,0,30,100"/>
+        <TextBox Height="30"
+          Width="200"
+          x:Name="MemoryTextbox"
+          pu:TextBoxHelper.Watermark="PlaceHolder"
+          pu:TextBoxHelper.CornerRadius="15"
+          HorizontalAlignment="Left"
+          VerticalAlignment="Top"
+          Margin="30,110,0,0"/>
     </Grid>
 </Window>
